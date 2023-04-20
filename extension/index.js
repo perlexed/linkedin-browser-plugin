@@ -48,6 +48,7 @@ function listenOnJobChanges(jobContainerElement) {
             return;
         }
 
+        // @todo debounce this function call so it won't happen too often
         colorJobDescription(jobContainerElement);
     });
 
